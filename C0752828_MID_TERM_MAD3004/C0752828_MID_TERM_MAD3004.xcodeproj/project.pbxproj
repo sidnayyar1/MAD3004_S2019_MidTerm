@@ -12,6 +12,8 @@
 		9B94A19822BC430800533FCF /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B94A19722BC430800533FCF /* Internet.swift */; };
 		9B94A19A22BC47B200533FCF /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B94A19922BC47B200533FCF /* Mobile.swift */; };
 		9B94A19C22BC4C2500533FCF /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B94A19B22BC4C2500533FCF /* Customer.swift */; };
+		9B94A19E22BC4E3E00533FCF /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B94A19D22BC4E3E00533FCF /* Hydro.swift */; };
+		9B94A1A122BC4F5B00533FCF /* DisplayDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B94A1A022BC4F5B00533FCF /* DisplayDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +35,8 @@
 		9B94A19722BC430800533FCF /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
 		9B94A19922BC47B200533FCF /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 		9B94A19B22BC4C2500533FCF /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		9B94A19D22BC4E3E00533FCF /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
+		9B94A1A022BC4F5B00533FCF /* DisplayDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +69,23 @@
 		9B94A18D22BC3AE400533FCF /* C0752828_MID_TERM_MAD3004 */ = {
 			isa = PBXGroup;
 			children = (
+				9B94A19F22BC4F3500533FCF /* Model1 */,
 				9B94A18E22BC3AE400533FCF /* main.swift */,
 				9B94A19522BC420A00533FCF /* Bill.swift */,
 				9B94A19722BC430800533FCF /* Internet.swift */,
 				9B94A19922BC47B200533FCF /* Mobile.swift */,
+				9B94A19D22BC4E3E00533FCF /* Hydro.swift */,
 				9B94A19B22BC4C2500533FCF /* Customer.swift */,
 			);
 			path = C0752828_MID_TERM_MAD3004;
+			sourceTree = "<group>";
+		};
+		9B94A19F22BC4F3500533FCF /* Model1 */ = {
+			isa = PBXGroup;
+			children = (
+				9B94A1A022BC4F5B00533FCF /* DisplayDetails.swift */,
+			);
+			path = Model1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +149,8 @@
 				9B94A19C22BC4C2500533FCF /* Customer.swift in Sources */,
 				9B94A19622BC420A00533FCF /* Bill.swift in Sources */,
 				9B94A18F22BC3AE400533FCF /* main.swift in Sources */,
+				9B94A19E22BC4E3E00533FCF /* Hydro.swift in Sources */,
+				9B94A1A122BC4F5B00533FCF /* DisplayDetails.swift in Sources */,
 				9B94A19A22BC47B200533FCF /* Mobile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

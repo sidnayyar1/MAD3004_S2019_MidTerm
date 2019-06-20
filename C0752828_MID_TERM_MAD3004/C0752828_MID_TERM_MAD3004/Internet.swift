@@ -12,12 +12,12 @@ class Internet:Bill {
     var provide_Name:String?
     var Internet_Gb_Used:Int?
     
-    init(bill_ID:Int,billdate:Date,billType:String,totalBillAmount:Float,providerName:String,InternetGbUsed:Int) {
+    init(bill_ID:Int,billDate:Date,billType:String,totalBillAmount:Float,providerName:String,InternetGbUsed:Int) {
         
     self.provide_Name = providerName
     self.Internet_Gb_Used = InternetGbUsed
         
-     //   super.init(bill_ID: billId ?? 1, billDate: billdate, billType: billType,totalBillAmount: totalBillAmount)
+    super.init(bill_ID: bill_ID, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
     
     }
 }

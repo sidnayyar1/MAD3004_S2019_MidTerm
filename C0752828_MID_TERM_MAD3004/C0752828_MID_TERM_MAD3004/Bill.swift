@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Bill {
+class Bill:DisplayDetails{
     var billId: Int?
     var bill_Date: Date?
     var bill_Type: String?
