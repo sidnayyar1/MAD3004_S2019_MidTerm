@@ -22,7 +22,7 @@ class Bill:DisplayDetails{
         self.bill_Type = billType
         self.total_Bill_Amount = totalBillAmount
         
-        var arrayBill:
+        //
         
         
     }

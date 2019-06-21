@@ -24,8 +24,10 @@ class Customer:DisplayDetails {
         self.customer_email_Id = customeremail
 
     }
-//    var Arraycustomer:[Customer] = [Customer]()
-//    
+
+
+    
+    //
 //    var arraybill:[Bill] = [Bill]()
 //    var totalprice:Float{
 //        var finalprice:Float = 0.0
