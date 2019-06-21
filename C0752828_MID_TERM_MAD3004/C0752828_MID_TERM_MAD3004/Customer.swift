@@ -28,7 +28,7 @@ class Customer:DisplayDetails {
     var arraybill:[Bill] = [Bill]()
     var totalprice:Float{
         var finalprice:Float = 0.0
-        for Bill in
+        for Bill in 
     }
     
     func display() {
