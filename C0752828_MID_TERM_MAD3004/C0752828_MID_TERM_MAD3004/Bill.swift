@@ -22,6 +22,9 @@ class Bill:DisplayDetails{
         self.bill_Type = billType
         self.total_Bill_Amount = totalBillAmount
         
+        var arrayBill:
+        
+        
     }
     func display() {
         print("Bill Id is: \(String(describing: self.billId))")
@@ -30,12 +33,4 @@ class Bill:DisplayDetails{
         print("total bill amount is: \(self.total_Bill_Amount))")
     }
     
-//    func display() {
-//        print("********* Customer Details *******")
-//        print("customer ID is: \(String(describing: self.customer_ID!))")
-//        print("Customer first name is : \(String(describing: self.customer_First_Name))")
-//        print("Customer last name is : \(String(describing: self.customer_Last_Name))")
-//        print("customer Email is: \(String(describing: self.customer_email_Id))")
-//
-//    }
 }

@@ -24,12 +24,12 @@ class Customer:DisplayDetails {
         self.customer_email_Id = customeremail
 
     }
-    
-    var arraybill:[Bill] = [Bill]()
-    var totalprice:Float{
-        var finalprice:Float = 0.0
-        for Bill in 
-    }
+//    var Arraycustomer:[Customer] = [Customer]()
+//    
+//    var arraybill:[Bill] = [Bill]()
+//    var totalprice:Float{
+//        var finalprice:Float = 0.0
+//        }
     
     func display() {
         print("********* Customer Details *******")
@@ -40,13 +40,13 @@ class Customer:DisplayDetails {
         
     }
 }
-
-lazy var arrayProducts:[Product] = [Product]()
-//Computed Property : Order Total
-var orderTotal:Float{
-    var finalOrderTotal:Float = 0.0
-    for product in arrayProducts {
-        finalOrderTotal = finalOrderTotal + (product.getProductPrice! * Float(product.getProductQuantity!))
-    }
-    return finalOrderTotal
-}
+//
+//var arrayProducts:[Product] = [Product]()
+////Computed Property : Order Total
+//var orderTotal:Float{
+//    var finalOrderTotal:Float = 0.0
+//    for product in arrayProducts {
+//        finalOrderTotal = finalOrderTotal + (product.getProductPrice! * Float(product.getProductQuantity!))
+//    }
+//    return finalOrderTotal
+//}
