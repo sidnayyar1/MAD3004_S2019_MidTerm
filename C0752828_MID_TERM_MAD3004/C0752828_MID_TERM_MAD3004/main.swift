@@ -22,3 +22,5 @@ var m1:Mobile = Mobile.init(bill_ID: 3, billDate: Date(), billType: "Mobile", to
 var c1:Customer = Customer.init(customerId: 1, Customerfname: "rahul", customerlname: "rastogi", customeremail: "rahulr@gmail.com")
 
 var Arraycustomer:[Customer] = [Customer]()
+
+var customer1:Customer =
