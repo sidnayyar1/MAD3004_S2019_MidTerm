@@ -25,8 +25,9 @@ class Bill:DisplayDetails{
     }
     func display() {
         print("Bill Id is: \(String(describing: self.billId))")
-        print("Bill date is: \(String(describing: self.billDate))")
-    
+        print("Bill date is: \(String(describing: self.bill_Date))")
+        print("Bill type is: \(String(describing: self.bill_Type))")
+        print("total bill amount is: \(self.total_Bill_Amount))")
     }
     
 //    func display() {
