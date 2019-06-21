@@ -9,11 +9,27 @@
 import Foundation
 class Hydro:Bill {
     var agency_Name:String?
-    var unit_Consumer:Int?
+    var agencyname:String? {
+        get{
+            return agency_Name
+        }
+    }
+    var unit_Consumed:Int?
+    var unitconsumed: Int? {
+        get{
+            return unit_Consumed
+        }
+    }
     
     init(bill_ID:Int,billDate:Date,billType:String,totalBillAmount:Float,agencyname:String,unitConsumed:Int) {
         self.agency_Name = agencyname
-        self.unit_Consumer = unitConsumed
+        self.unit_Consumed = unitConsumed
         super.init(bill_ID: bill_ID, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
     }
+    
+    override func display() {
+        print(self.agency_Name!,self.unit_Consumed)
+        
+    }
 }
+

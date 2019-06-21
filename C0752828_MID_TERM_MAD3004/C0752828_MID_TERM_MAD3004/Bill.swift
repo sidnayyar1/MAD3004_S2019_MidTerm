@@ -8,6 +8,8 @@
 
 import Foundation
 class Bill:DisplayDetails{
+    
+    
     var billId: Int?
     var bill_Date: Date?
     var bill_Type: String?
@@ -21,6 +23,8 @@ class Bill:DisplayDetails{
         self.total_Bill_Amount = totalBillAmount
         
     }
-    
+    func display() {
+        print("Bill Id is")
+    }
     
 }

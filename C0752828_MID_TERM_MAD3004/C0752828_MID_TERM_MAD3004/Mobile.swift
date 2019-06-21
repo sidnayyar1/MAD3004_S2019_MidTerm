@@ -10,9 +10,30 @@ import Foundation
 class Mobile:Bill {
     var mobile_Manufacturer_Name:String?
     var plan_name:String?
+    var planname:String?    {
+        get{
+            return plan_name
+        }
+    }
+    
     var mobile_Number: Int?
+    var mobilenumber:Int?{
+        get{
+            return mobile_Number
+        }
+    }
     var internet_Gb_Used:Int
+    var internetgdused:Int?{
+        get {
+            return internet_Gb_Used
+        }
+    }
     var minutes_Used:Int
+    var minutesused:Int {
+        get {
+            return minutes_Used
+        }
+    }
     
     init(bill_ID:Int,billDate:Date,billType:String,totalBillAmount:Float,mobileManufName:String,planName:String,mobileNumber:Int,internetGbUsed:Int,minutesUsed:Int) {
         
@@ -26,7 +47,11 @@ class Mobile:Bill {
 
     }
     
-    
+    override func display() {
+        
+        print(self.mobile_Manufacturer_Name!,self.plan_name,self.mobile_Number,self.internet_Gb_Used,self.minutes_Used)
+        
+    }
     
     
 }

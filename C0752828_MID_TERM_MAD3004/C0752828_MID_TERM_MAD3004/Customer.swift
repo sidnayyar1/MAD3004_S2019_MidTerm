@@ -7,7 +7,9 @@
 //
 
 import Foundation
-class Customer {
+class Customer:DisplayDetails {
+   
+    
     var customer_ID:Int?
     var customer_First_Name:String?
     var customer_Last_Name:String?
@@ -21,5 +23,9 @@ class Customer {
         self.customer_Last_Name = customerlname
         self.customer_email_Id = customeremail
 
+    }
+    
+    func display() {
+        
     }
 }
