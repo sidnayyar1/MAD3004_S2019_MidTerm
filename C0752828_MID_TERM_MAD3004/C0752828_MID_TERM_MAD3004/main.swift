@@ -14,3 +14,8 @@ var h1:Hydro = Hydro.init(bill_ID: 1, billDate: Date(), billType: "Hydro", total
 var e1:Internet = Internet.init(bill_ID: 2, billDate:Date() , billType: "intenet", totalBillAmount: 100.0, providerName: "Freedom", InternetGbUsed: 10)
 
 var m1:Mobile = Mobile.init(bill_ID: 3, billDate: Date(), billType: "Mobile", totalBillAmount: 300.0, mobileManufName: "Apple", planName: "LTE+3G 9.5GB Promo plan", mobileNumber: +6475623440, internetGbUsed: 10, minutesUsed: 300)
+
+var c1 = Array<Customer>()
+
+c1(Customer) = Customer.init(customerId: 1, Customerfname: "rahul", customerlname: "rastogi", customeremail: "rahulrastogi@gmail.com")
+
