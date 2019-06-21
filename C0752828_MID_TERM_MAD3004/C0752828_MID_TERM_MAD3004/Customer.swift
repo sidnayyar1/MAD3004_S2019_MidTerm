@@ -26,6 +26,12 @@ class Customer:DisplayDetails {
     }
     
     func display() {
+        print("********* Customer Details *******")
+            print("customer ID is: \(String(describing: self.customer_ID!))")
+        print("Customer first name is : \(String(describing: self.customer_First_Name))")
+        print("Customer last name is : \(String(describing: self.customer_Last_Name))")
+        print("customer Email is: \(String(describing: self.customer_email_Id))")
         
     }
 }
+
