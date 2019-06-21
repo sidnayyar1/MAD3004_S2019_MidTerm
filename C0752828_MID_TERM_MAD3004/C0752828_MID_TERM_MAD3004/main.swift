@@ -11,5 +11,5 @@ import Foundation
 
 var h1:Hydro = Hydro.init(bill_ID: 1, billDate: Date(), billType: "Hydro", totalBillAmount: 200.2, agencyname: "energyplant", unitConsumed: 10)
 
+var e1:Internet = Internet.init(bill_ID: 1, billDate:Date() , billType: "intenet", totalBillAmount: 100.0, providerName: "Freedom", InternetGbUsed: 10)
 
-    
